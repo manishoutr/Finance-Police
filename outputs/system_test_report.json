@@ -1,0 +1,304 @@
+{
+  "generated_at": "2026-08-26T17:43:02.632189+00:00",
+  "total_tests": 49,
+  "passed": 48,
+  "failed": 0,
+  "skipped": 1,
+  "failure_details": [],
+  "tests": [
+    {
+      "test": "tests.test_cash_position::test_cash_position_has_required_labels_and_real_values",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.044
+    },
+    {
+      "test": "tests.test_cash_position::test_cash_position_returns_largest_pending_receivables",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.02
+    },
+    {
+      "test": "tests.test_cash_position::test_cash_position_is_not_settled_bank_balance",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.019
+    },
+    {
+      "test": "tests.test_classify_exceptions::test_amount_mismatch",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.001
+    },
+    {
+      "test": "tests.test_classify_exceptions::test_missing_payment",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.001
+    },
+    {
+      "test": "tests.test_classify_exceptions::test_duplicate_payment",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.001
+    },
+    {
+      "test": "tests.test_classify_exceptions::test_customer_ambiguity",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.0
+    },
+    {
+      "test": "tests.test_classify_exceptions::test_date_mismatch",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.0
+    },
+    {
+      "test": "tests.test_classify_exceptions::test_missing_reference",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.0
+    },
+    {
+      "test": "tests.test_classify_exceptions::test_unmatched_transaction",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.0
+    },
+    {
+      "test": "tests.test_classify_exceptions::test_partial_payment",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.001
+    },
+    {
+      "test": "tests.test_classify_exceptions::test_other",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.0
+    },
+    {
+      "test": "tests.test_classify_exceptions::test_reason_amount_mismatch",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.0
+    },
+    {
+      "test": "tests.test_demo_assistant::test_demo_mode_does_not_require_api_key",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.001
+    },
+    {
+      "test": "tests.test_demo_assistant::test_demo_invoice_lookup",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.009
+    },
+    {
+      "test": "tests.test_demo_assistant::test_demo_top_exceptions",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.003
+    },
+    {
+      "test": "tests.test_end_to_end::test_end_to_end_core_workflow",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.059
+    },
+    {
+      "test": "tests.test_end_to_end::test_exact_and_fuzzy_matches",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.055
+    },
+    {
+      "test": "tests.test_end_to_end::test_amount_mismatch_and_partial_payment",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.054
+    },
+    {
+      "test": "tests.test_end_to_end::test_missing_duplicate_unmatched_and_missing_reference",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.056
+    },
+    {
+      "test": "tests.test_end_to_end::test_multiple_invoices_same_customer_and_multiple_payments",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.056
+    },
+    {
+      "test": "tests.test_end_to_end::test_human_approval_preserves_original_and_logs",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.062
+    },
+    {
+      "test": "tests.test_end_to_end::test_human_rejection_is_logged",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.061
+    },
+    {
+      "test": "tests.test_end_to_end::test_ai_existing_and_nonexistent_invoice_use_backend_data",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.064
+    },
+    {
+      "test": "tests.test_end_to_end::test_cash_position_uses_actual_data",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.072
+    },
+    {
+      "test": "tests.test_end_to_end::test_dashboard_data_products_are_loadable",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.07
+    },
+    {
+      "test": "tests.test_end_to_end::test_invalid_empty_and_duplicate_inputs_are_rejected",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.007
+    },
+    {
+      "test": "tests.test_evaluate_reconciliation::test_metric_calculations_known_dataset",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.003
+    },
+    {
+      "test": "tests.test_evaluate_reconciliation::test_multiple_ground_truth_payments_accepts_any_valid_payment",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.003
+    },
+    {
+      "test": "tests.test_finance_tools::test_reconciliation_summary_uses_stored_metrics",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.0
+    },
+    {
+      "test": "tests.test_finance_tools::test_invoice_details_returns_real_source_records",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.008
+    },
+    {
+      "test": "tests.test_finance_tools::test_payment_details_returns_associated_records",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.009
+    },
+    {
+      "test": "tests.test_finance_tools::test_exception_filters_are_deterministic",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.003
+    },
+    {
+      "test": "tests.test_finance_tools::test_top_exceptions_is_value_sorted",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.003
+    },
+    {
+      "test": "tests.test_finance_tools::test_exception_summary_has_expected_categories",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.005
+    },
+    {
+      "test": "tests.test_finance_tools::test_search_transactions_finds_invoice_and_payment_ids",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.02
+    },
+    {
+      "test": "tests.test_finance_tools::test_cash_position_uses_settled_amounts",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.022
+    },
+    {
+      "test": "tests.test_human_review::test_approve_match_logs_and_preserves_reconciliation",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.01
+    },
+    {
+      "test": "tests.test_human_review::test_reject_match_logs_and_preserves_reconciliation",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.008
+    },
+    {
+      "test": "tests.test_human_review::test_only_review_can_be_decided",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.004
+    },
+    {
+      "test": "tests.test_human_review::test_reason_is_required",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.002
+    },
+    {
+      "test": "tests.test_human_review::test_cannot_decide_same_case_twice",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.007
+    },
+    {
+      "test": "tests.test_reconciler::test_exact_match",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.007
+    },
+    {
+      "test": "tests.test_reconciler::test_fuzzy_customer_match",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.007
+    },
+    {
+      "test": "tests.test_reconciler::test_amount_mismatch",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.007
+    },
+    {
+      "test": "tests.test_reconciler::test_missing_payment",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.005
+    },
+    {
+      "test": "tests.test_reconciler::test_duplicate_payment",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.01
+    },
+    {
+      "test": "tests.test_reconciler::test_unmatched_payment",
+      "status": "PASSED",
+      "detail": "",
+      "duration_seconds": 0.01
+    },
+    {
+      "test": "tests.test_streamlit_smoke::test_streamlit_app_starts_without_exception",
+      "status": "SKIPPED",
+      "detail": "Streamlit is not installed in this test environment",
+      "duration_seconds": 0.0
+    }
+  ]
+}

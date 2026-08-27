@@ -1,0 +1,163 @@
+payment_id,payer_name,payment_date,amount,currency,method,reference_note
+HOP-100000,Williams-Turner LLP,2026-04-06,9629.84,USD,Bank Transfer,HINV-0001
+HOP-100001,Brown  Simmons  and  Norton  Private  Limited,2026-02-14,3689.28,USD,Bank Transfer,HINV-0002
+HOP-100002,RAMOS PLC INC,2026-06-26,6268.79,USD,Bank Transfer,HINV-0003
+HOP-100003,Adams Wagner and Hall Limited,2026-04-20,4161.93,USD,Bank Transfer,HINV-0004
+HOP-100004,Adams Wagner and Hall Limited,2026-04-22,2774.62,USD,Bank Transfer,HINV-0004
+HOP-100005,Webster-Joseph Inc,2026-03-16,10694.32,USD,Bank Transfer,HINV-0005
+HOP-100006,Jacobs LLC Limited,2026-04-07,2677.31,USD,Bank Transfer,HINV-0006
+HOP-100007,Swanson  Benson  and  Johnson  LLP,2026-02-18,3048.0,USD,Bank Transfer,HINV-0007
+HOP-100008,Nichols Peters and Davis Inc,2026-03-30,7053.57,USD,Bank Transfer,HINV-0008
+HOP-100009,Nichols Peters and Davis Inc,2026-03-31,7053.57,USD,Bank Transfer,HINV-0008
+HOP-100010,Horton and Sons LLP,2026-06-24,8062.74,USD,Bank Transfer,BANK CREDIT
+HOP-100011,Colon Sloan and Davila Limited,2026-04-08,6063.0,USD,Bank Transfer,
+HOP-100012,Colon Sloan and Davila Limited,2026-04-09,6123.63,USD,Bank Transfer,
+HOP-100013,Gregory-Parker Inc,2026-05-09,10341.58,USD,Bank Transfer,
+HOP-100014,Gregory-Parker Inc,2026-05-10,10445.0,USD,Bank Transfer,
+HOP-100015,Walker Berry and Murray Inc,2026-04-07,11949.1,USD,Bank Transfer,HINV-0012
+HOP-100016,Walker Berry and Murray Inc,2026-04-08,11949.1,USD,Bank Transfer,HINV-0012
+HOP-100017,Campos Ltd Private Limited,2026-05-06,7602.53,USD,Bank Transfer,BANK CREDIT
+HOP-100018,Beck-Elliott Inc,2026-02-04,2310.07,USD,Bank Transfer,HINV-0014
+HOP-100019,Carson Inc LLP,2026-07-09,1114.49,USD,Bank Transfer,HINV-0015
+HOP-100020,Williams Group Inc,2026-07-05,4677.24,USD,Bank Transfer,HINV-0016
+HOP-100021,Lane and Sons Inc,2026-04-06,9939.74,USD,Bank Transfer,BANK CREDIT
+HOP-100022,Abbott Inc Limited,2026-02-18,9874.41,USD,Bank Transfer,HINV-0018
+HOP-100023,Carter Combs and Taylor Inc,2026-03-08,7976.06,USD,Bank Transfer,HINV-0019
+HOP-100024,Alvarado PLC Private Limited,2026-06-18,11274.84,USD,Bank Transfer,BANK CREDIT
+HOP-100025,Simmons Inc LLP,2026-05-19,8924.76,USD,Bank Transfer,HINV-0021
+HOP-100026,Taylor-Walker LLP,2026-03-29,5970.32,USD,Bank Transfer,HINV-0022
+HOP-100027,Romero Group Limited,2026-03-27,8601.04,USD,Bank Transfer,
+HOP-100028,Romero Group Limited,2026-03-28,8687.05,USD,Bank Transfer,
+HOP-100029,Shannon-Martin Ltd,2026-02-19,5885.67,USD,Bank Transfer,HINV-0024
+HOP-100030,Chavez-Thomas Inc,2026-02-11,4520.32,USD,Bank Transfer,HINV-0025
+HOP-100031,Fowler Henry and Weaver LLP,2026-06-10,9053.07,USD,Bank Transfer,BANK CREDIT
+HOP-100032,Paul-Mccarthy LLP,2026-03-25,11361.45,USD,Bank Transfer,HINV-0027
+HOP-100033,Mclaughlin Silva and Munoz Limited,2026-02-08,1855.24,USD,Bank Transfer,HINV-0029
+HOP-100034,Floyd Bullock and Mclaughlin Limited,2026-02-17,7002.34,USD,Bank Transfer,HINV-0030
+HOP-100035,Mitchell Dean and West Inc,2026-05-11,11941.01,USD,Bank Transfer,HINV-0031
+HOP-100036,Cuevas-Wells Private Limited,2026-04-25,8213.43,USD,Bank Transfer,HINV-0032
+HOP-100037,Harris-Pham Inc,2026-06-09,9511.89,USD,Bank Transfer,HINV-0033
+HOP-100038,Mcfarland-Castro Inc,2026-05-02,429.47,USD,Bank Transfer,HINV-0034
+HOP-100039,Livingston Ltd Private Limited,2026-05-17,11197.77,USD,Bank Transfer,HINV-0035
+HOP-100040,Goodman PLC Ltd,2026-04-28,435.38,USD,Bank Transfer,HINV-0036
+HOP-100041,Mccoy Ltd Private Limited,2026-05-11,3302.15,USD,Bank Transfer,HINV-0037
+HOP-100042,Campbell Wang and Nixon Limited,2026-02-23,11395.27,USD,Bank Transfer,HINV-0038
+HOP-100043,Crawford Parks and Camacho Limited,2026-06-27,4653.31,USD,Bank Transfer,HINV-0039
+HOP-100044,Robinson-Wilson Inc,2026-04-19,11890.71,USD,Bank Transfer,HINV-0040
+HOP-100045,Hoover Kelly and Frye Inc,2026-05-08,8280.29,USD,Bank Transfer,HINV-0043
+HOP-100046,White Riley and Taylor Limited,2026-03-05,5445.61,USD,Bank Transfer,BANK CREDIT
+HOP-100047,Riley-Williams Inc,2026-05-17,6541.33,USD,Bank Transfer,HINV-0045
+HOP-100048,Sullivan Ltd Inc,2026-03-22,777.52,USD,Bank Transfer,HINV-0046
+HOP-100049,Mathews and Sons Limited,2026-04-06,10738.83,USD,Bank Transfer,HINV-0047
+HOP-100050,GONZALEZ SANDOVAL AND GONZALES LIMITED,2026-02-27,2836.67,USD,Bank Transfer,HINV-0049
+HOP-100051,Meyers Edwards and Rodriguez Private Limited,2026-05-25,1745.6,USD,Bank Transfer,HINV-0050
+HOP-100052,Meyers Edwards and Rodriguez Private Limited,2026-05-27,2133.5,USD,Bank Transfer,HINV-0050
+HOP-100053,King-Walker Limited,2026-06-25,7934.82,USD,Bank Transfer,HINV-0051
+HOP-100054,Hodge-Williams Private Limited,2026-06-12,769.78,USD,Bank Transfer,HINV-0052
+HOP-100055,Perez-Ellis Inc,2026-02-14,837.38,USD,Bank Transfer,HINV-0053
+HOP-100056,Oconnor Inc Limited,2026-03-10,437.26,USD,Bank Transfer,HINV-0054
+HOP-100057,Oconnor Inc Limited,2026-03-11,437.26,USD,Bank Transfer,HINV-0054
+HOP-100058,Franklin PLC Pvt Ltd,2026-06-10,10408.02,USD,Bank Transfer,HINV-0055
+HOP-100059,Roberts Ltd Private Limited,2026-01-19,4083.47,USD,Bank Transfer,HINV-0056
+HOP-100060,Roberts Ltd Private Limited,2026-01-20,4083.47,USD,Bank Transfer,HINV-0056
+HOP-100061,Jordan-Trevino LLP,2026-05-22,2989.06,USD,Bank Transfer,HINV-0057
+HOP-100062,Jordan-Trevino LLP,2026-05-24,1992.71,USD,Bank Transfer,HINV-0057
+HOP-100063,Small-Brewer Inc,2026-04-12,9534.28,USD,Bank Transfer,HINV-0058
+HOP-100064,Murray Hall and Miles Private Limited,2026-03-15,8447.23,USD,Bank Transfer,HINV-0059
+HOP-100065,KERR GROUP LLP,2026-04-23,331.42,USD,Bank Transfer,HINV-0060
+HOP-100066,Gray and Sons Inc,2026-02-09,2471.62,USD,Bank Transfer,HINV-0061
+HOP-100067,Gray and Sons Inc,2026-02-11,1647.75,USD,Bank Transfer,HINV-0061
+HOP-100068,Durham Ltd Private Limited,2026-04-26,5522.86,USD,Bank Transfer,HINV-0062
+HOP-100069,Fletcher-Walker Inc,2026-03-01,5354.91,USD,Bank Transfer,HINV-0063
+HOP-100070,Madden and Sons Inc,2026-03-23,8012.39,USD,Bank Transfer,HINV-0064
+HOP-100071,Bailey and Sons Inc,2026-06-14,7704.14,USD,Bank Transfer,HINV-0065
+HOP-100072,Schroeder Fleming and Merritt Inc,2026-02-28,2244.15,USD,Bank Transfer,HINV-0066
+HOP-100073,Schroeder Fleming and Merritt Inc,2026-03-01,2244.15,USD,Bank Transfer,HINV-0066
+HOP-100074,Clarke Ltd Limited,2026-02-18,2234.93,USD,Bank Transfer,HINV-0067
+HOP-100075,Clarke Ltd Limited,2026-02-21,1489.95,USD,Bank Transfer,HINV-0067
+HOP-100076,White-Thompson Private Limited,2026-06-02,2920.55,USD,Bank Transfer,HINV-0069
+HOP-100077,White-Thompson Private Limited,2026-06-05,3569.55,USD,Bank Transfer,HINV-0069
+HOP-100078,Hartman-Aguilar Limited,2026-03-20,7085.22,USD,Bank Transfer,BANK CREDIT
+HOP-100079,Dominguez PLC Inc,2026-03-07,7877.18,USD,Bank Transfer,HINV-0071
+HOP-100080,Nelson-Wagner Private Limited,2026-03-10,3863.61,USD,Bank Transfer,HINV-0072
+HOP-100081,Villarreal LLC Inc,2026-06-29,3414.33,USD,Bank Transfer,BANK CREDIT
+HOP-100082,Donovan Group Inc,2026-03-03,3070.46,USD,Bank Transfer,HINV-0074
+HOP-100083,Donovan Group Inc,2026-03-07,3752.78,USD,Bank Transfer,HINV-0074
+HOP-100084,Figueroa Montgomery and Ford LLP,2026-05-17,8892.25,USD,Bank Transfer,HINV-0075
+HOP-100085,Figueroa Montgomery and Ford LLP,2026-05-18,8892.25,USD,Bank Transfer,HINV-0075
+HOP-100086,Mitchell and Sons Limited,2026-06-21,406.99,USD,Bank Transfer,BANK CREDIT
+HOP-100087,Hunt-Schroeder Private Limited,2026-05-04,8228.92,USD,Bank Transfer,HINV-0078
+HOP-100088,Allen Ltd Limited,2026-02-12,7159.97,USD,Bank Transfer,
+HOP-100089,Allen Ltd Limited,2026-02-13,7231.57,USD,Bank Transfer,
+HOP-100090,Rowe Carroll and Allen Ltd,2026-02-04,7778.69,USD,Bank Transfer,HINV-0080
+HOP-100091,Williams-Turner LLP,2026-04-03,2254.45,USD,Bank Transfer,HINV-0081
+HOP-100092,Williams-Turner LLP,2026-04-04,2254.45,USD,Bank Transfer,HINV-0081
+HOP-100093,BROWN SIMMONS AND NORTON PRIVATE LIMITED,2026-04-18,7404.3,USD,Bank Transfer,HINV-0082
+HOP-100094,Ramos PLC Inc,2026-05-11,4720.02,USD,Bank Transfer,
+HOP-100095,Ramos PLC Inc,2026-05-12,4767.22,USD,Bank Transfer,
+HOP-100096,Adams Wagner and Hall Limited,2026-04-10,2127.81,USD,Bank Transfer,HINV-0084
+HOP-100097,Adams Wagner and Hall Limited,2026-04-11,2600.66,USD,Bank Transfer,HINV-0084
+HOP-100098,Webster-Joseph Inc,2026-02-20,8442.27,USD,Bank Transfer,HINV-0085
+HOP-100099,Jacobs LLC Limited,2026-04-05,7660.92,USD,Bank Transfer,HINV-0086
+HOP-100100,Swanson Benson and Johnson LLP,2026-04-29,10952.17,USD,Bank Transfer,
+HOP-100101,Swanson Benson and Johnson LLP,2026-04-30,11061.69,USD,Bank Transfer,
+HOP-100102,Nichols Peters and Davis Inc,2026-02-19,6594.18,USD,Bank Transfer,HINV-0088
+HOP-100103,Horton and Sons LLP,2026-04-05,644.02,USD,Bank Transfer,HINV-0089
+HOP-100104,Colon Sloan and Davila Limited,2026-05-27,1261.22,USD,Bank Transfer,HINV-0090
+HOP-100105,Gregory-Parker Inc,2026-07-06,11693.97,USD,Bank Transfer,HINV-0091
+HOP-100106,Berry Walker and Murray Inc,2026-03-28,11914.0,USD,Bank Transfer,HINV-0092
+HOP-100107,Campos Ltd Private Limited,2026-03-19,11211.29,USD,Bank Transfer,HINV-0093
+HOP-100108,Beck-Elliott Inc,2026-04-05,1285.23,USD,Bank Transfer,HINV-0094
+HOP-100109,Carson Inc LLP,2026-03-09,11617.75,USD,Bank Transfer,
+HOP-100110,Carson Inc LLP,2026-03-10,11733.93,USD,Bank Transfer,
+HOP-100111,Williams Group Inc,2026-04-26,2526.12,USD,Bank Transfer,HINV-0096
+HOP-100112,Lane and Sons Inc,2026-04-01,4672.89,USD,Bank Transfer,HINV-0097
+HOP-100113,Lane and Sons Inc,2026-04-02,4672.89,USD,Bank Transfer,HINV-0097
+HOP-100114,Abbott Inc Limited,2026-01-31,8423.78,USD,Bank Transfer,HINV-0098
+HOP-100115,Carter Combs and Taylor Inc,2026-04-07,11835.53,USD,Bank Transfer,
+HOP-100116,Carter Combs and Taylor Inc,2026-04-08,11953.89,USD,Bank Transfer,
+HOP-100117,Alvarado PLC Private Limited,2026-01-25,7003.94,USD,Bank Transfer,HINV-0100
+HOP-100118,Romero Group Limited,2026-04-30,4498.11,USD,Bank Transfer,HINV-0103
+HOP-100119,Shannon-Martin Limited,2026-04-24,7574.32,USD,Bank Transfer,HINV-0104
+HOP-100120,Shannon-Martin Limited,2026-04-25,7574.32,USD,Bank Transfer,HINV-0104
+HOP-100121,Chavez-Thomas Inc,2026-03-10,4966.71,USD,Bank Transfer,HINV-0105
+HOP-100122,Chavez-Thomas Inc,2026-03-15,6070.43,USD,Bank Transfer,HINV-0105
+HOP-100123,Fowler Henry and Weaver LLP Pvt Ltd,2026-03-14,8372.17,USD,Bank Transfer,HINV-0106
+HOP-100124,Moss Moreno and Davis Inc,2026-02-12,11188.53,USD,Bank Transfer,
+HOP-100125,Moss Moreno and Davis Inc,2026-02-13,11300.42,USD,Bank Transfer,
+HOP-100126,Mclaughlin Silva and Munoz Limited,2026-04-21,7499.62,USD,Bank Transfer,HINV-0109
+HOP-100127,Mitchell Dean and West Inc,2026-06-20,8559.97,USD,Bank Transfer,HINV-0111
+HOP-100128,Cuevas-Wells Private Limited,2026-01-25,5215.1,USD,Bank Transfer,HINV-0112
+HOP-100129,Harris-Pham Inc,2026-04-27,4070.13,USD,Bank Transfer,HINV-0113
+HOP-100130,Mcfarland-Castro Inc,2026-02-19,7941.96,USD,Bank Transfer,HINV-0114
+HOP-100131,Livingston Ltd Private Limited,2026-04-09,5216.19,USD,Bank Transfer,HINV-0115
+HOP-100132,Livingston Ltd Private Limited,2026-04-10,5216.19,USD,Bank Transfer,HINV-0115
+HOP-100133,Goodman PLC Limited,2026-05-27,9759.78,USD,Bank Transfer,BANK CREDIT
+HOP-100134,Mccoy Ltd Private Limited,2026-05-31,1998.43,USD,Bank Transfer,HINV-0117
+HOP-100135,Campbell Wang and Nixon Limited,2026-07-04,1636.49,USD,Bank Transfer,HINV-0118
+HOP-100136,Campbell Wang and Nixon Limited,2026-07-06,3039.2,USD,Bank Transfer,HINV-0118
+HOP-100137,Crawford Parks and Camacho Limited,2026-02-15,5715.94,USD,Bank Transfer,HINV-0119
+HOP-100138,Robinson-Wilson Inc,2026-04-08,2309.43,USD,Bank Transfer,
+HOP-100139,Robinson-Wilson Inc,2026-04-09,2332.52,USD,Bank Transfer,
+HOP-100140,Nichols Peters and Davis Inc,2026-01-28,4760.07,USD,Bank Transfer,UNRELATED-01
+HOP-100141,Kerr Group LLP,2026-04-27,4820.33,USD,Bank Transfer,UNRELATED-02
+HOP-100142,Nelson-Wagner Private Limited,2026-02-14,2556.63,USD,Bank Transfer,UNRELATED-03
+HOP-100143,Roth Vega and Krueger LLP,2026-06-28,4804.19,USD,Bank Transfer,UNRELATED-04
+HOP-100144,Gregory-Parker Inc,2026-06-10,6412.98,USD,Bank Transfer,UNRELATED-05
+HOP-100145,Robinson-Wilson Inc,2026-02-13,812.64,USD,Bank Transfer,UNRELATED-06
+HOP-100146,Mitchell and Sons Limited,2026-05-01,4119.33,USD,Bank Transfer,UNRELATED-07
+HOP-100147,Colon Sloan and Davila Limited,2026-05-25,4789.96,USD,Bank Transfer,UNRELATED-08
+HOP-100148,Riley-Williams Inc,2026-02-18,6215.52,USD,Bank Transfer,UNRELATED-09
+HOP-100149,Oconnor Inc Limited,2026-03-03,3347.55,USD,Bank Transfer,UNRELATED-10
+HOP-100150,Fletcher-Walker Inc,2026-04-06,5485.23,USD,Bank Transfer,UNRELATED-11
+HOP-100151,Kerr Group LLP,2026-03-10,960.17,USD,Bank Transfer,UNRELATED-12
+HOP-100152,Villarreal LLC Inc,2026-02-08,2931.66,USD,Bank Transfer,UNRELATED-13
+HOP-100153,Meyers Edwards and Rodriguez Private Limited,2026-01-21,6433.41,USD,Bank Transfer,UNRELATED-14
+HOP-100154,Campos Ltd Private Limited,2026-04-14,920.67,USD,Bank Transfer,UNRELATED-15
+HOP-100155,White-Thompson Private Limited,2026-04-29,5131.83,USD,Bank Transfer,UNRELATED-16
+HOP-100156,Williams-Turner LLP,2026-06-04,2033.34,USD,Bank Transfer,UNRELATED-17
+HOP-100157,Horn-Green Limited,2026-02-25,563.96,USD,Bank Transfer,UNRELATED-18
+HOP-100158,Bailey and Sons Inc,2026-04-22,951.31,USD,Bank Transfer,UNRELATED-19
+HOP-100159,Webster-Joseph Inc,2026-02-18,274.42,USD,Bank Transfer,UNRELATED-20
+HOP-100160,Durham Ltd Private Limited,2026-05-19,3888.95,USD,Bank Transfer,UNRELATED-21
+HOP-100161,Williams-Turner LLP,2026-03-27,907.0,USD,Bank Transfer,UNRELATED-22

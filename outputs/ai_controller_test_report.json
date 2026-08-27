@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-08-26T17:59:40.514468+00:00",
+  "total_questions": 10,
+  "passed": 5,
+  "failed": 5,
+  "tests": [
+    {
+      "question": "What is our current reconciliation status?",
+      "expected_data_source": "evaluation_results.json / get_reconciliation_summary",
+      "actual_result": "### Reconciliation status\n- Records processed: **100**\n- Automatically matched: **71**\n- Review: **17**\n- Unmatched: **12**\n- Match rate: **71.0%**\n- Precision: **100.0%**\n- Recall: **74.7%**\n- F1: **85.5%**\n- Total exception value: **₹149,404.37**",
+      "passed_or_failed": "PASSED",
+      "notes": "Compared counts and match rate against stored evaluation output."
+    },
+    {
+      "question": "What is our match rate?",
+      "expected_data_source": "evaluation_results.json / get_reconciliation_summary",
+      "actual_result": "### Reconciliation status\n- Records processed: **100**\n- Automatically matched: **71**\n- Review: **17**\n- Unmatched: **12**\n- Match rate: **71.0%**\n- Precision: **100.0%**\n- Recall: **74.7%**\n- F1: **85.5%**\n- Total exception value: **₹149,404.37**",
+      "passed_or_failed": "PASSED",
+      "notes": "Compared match rate against stored evaluation output."
+    },
+    {
+      "question": "How many invoices are unresolved?",
+      "expected_data_source": "evaluation_results.json / get_reconciliation_summary",
+      "actual_result": "I'm running in **DEMO_MODE**, so no paid API call is being made. I can answer common questions using the same read-only finance tools. Try asking about reconciliation status, unresolved invoices, an invoice/payment ID, largest exceptions, exception summary, or cash position.",
+      "passed_or_failed": "FAILED",
+      "notes": "Derived REVIEW + UNMATCHED from stored evaluation output."
+    },
+    {
+      "question": "How much money is currently in exceptions?",
+      "expected_data_source": "evaluation_results.json / get_reconciliation_summary",
+      "actual_result": "The stored reconciliation data shows **₹149,404.37** in exception value. This is sourced from the existing evaluation output.",
+      "passed_or_failed": "PASSED",
+      "notes": "Compared exception value against stored evaluation output."
+    },
+    {
+      "question": "Show me the five largest exceptions.",
+      "expected_data_source": "exceptions.csv / get_top_exceptions",
+      "actual_result": "### Five largest exceptions\n1. **EXC-00020** | MISSING_REFERENCE | Invoice **INV-2024-00072** | Exposure **₹9,275.15** | Severity **LOW**\n2. **EXC-00006** | DATE_MISMATCH | Invoice **INV-2024-00026** | Exposure **₹9,207.01** | Severity **MEDIUM**\n3. **EXC-00013** | MISSING_REFERENCE | Invoice **INV-2024-00042** | Exposure **₹8,882.97** | Severity **LOW**\n4. **EXC-00019** | MISSING_REFERENCE | Invoice **INV-2024-00071** | Exposure **₹8,798.47** | Severity **LOW**\n5. **EXC-00018** | DATE_MISMATCH | Invoice **INV-2024-00067** | Exposure **₹8,545.38** | Severity **MEDIUM**",
+      "passed_or_failed": "PASSED",
+      "notes": "Checked that returned invoice IDs are actual top-exception records."
+    },
+    {
+      "question": "Why was invoice INV001 not reconciled?",
+      "expected_data_source": "invoices.csv + reconciliation_results.csv / get_invoice_details",
+      "actual_result": "I'm running in **DEMO_MODE**, so no paid API call is being made. I can answer common questions using the same read-only finance tools. Try asking about reconciliation status, unresolved invoices, an invoice/payment ID, largest exceptions, exception summary, or cash position.",
+      "passed_or_failed": "FAILED",
+      "notes": "Verified existence check against invoices.csv."
+    },
+    {
+      "question": "Find payments with discrepancies above ₹1,000.",
+      "expected_data_source": "exceptions.csv / get_exceptions",
+      "actual_result": "No transactions matching **payments with discrepancies above ₹1,000.** were found.",
+      "passed_or_failed": "FAILED",
+      "notes": "Verified IDs against exceptions.csv."
+    },
+    {
+      "question": "What are the most common exception types?",
+      "expected_data_source": "exceptions.csv / get_exception_summary",
+      "actual_result": "No exception summary is available.",
+      "passed_or_failed": "FAILED",
+      "notes": "Verified every reported type against exception summary."
+    },
+    {
+      "question": "What is our current cash position?",
+      "expected_data_source": "raw financial data + reconciliation + audit / get_cash_position",
+      "actual_result": "### Synthetic cash position\n- **CONFIRMED** incoming payments: **USD 315,501.19** (71 payments)\n- **PENDING** review payments: **USD 89,283.63** (17 payments)\n- **UNRESOLVED** unmatched incoming payments: **USD 80,223.22** (37 payments)\n- **CONFIRMED** receivables: **USD 315,501.19**\n- **UNRESOLVED** receivables: **USD 149,404.37**\n- **EXPECTED** incoming cash: **USD 464,905.56**\n\nThis is calculated from the synthetic dataset only. It is not a bank balance or production cash forecast.",
+      "passed_or_failed": "PASSED",
+      "notes": "Compared cash values against get_cash_position()."
+    },
+    {
+      "question": "Tell me about invoice INV999999.",
+      "expected_data_source": "invoices.csv / get_invoice_details",
+      "actual_result": "I'm running in **DEMO_MODE**, so no paid API call is being made. I can answer common questions using the same read-only finance tools. Try asking about reconciliation status, unresolved invoices, an invoice/payment ID, largest exceptions, exception summary, or cash position.",
+      "passed_or_failed": "FAILED",
+      "notes": "Verified nonexistent invoice is explicitly reported unavailable."
+    }
+  ]
+}

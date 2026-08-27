@@ -1,0 +1,2 @@
+records_processed,automatic_matches,review_records,unmatched_records,automatic_match_rate,true_positives,precision,recall,f1_score,false_positives,false_negatives,correctly_identified_unmatched,incorrect_automatic_matches,correctly_identified_unmatched_payments,expected_unmatched_payments,predicted_unmatched_payments,total_invoice_value,total_value_reconciled,total_value_exceptions,processing_time_seconds
+100,71,17,12,0.71,71,1.0,0.7473684210526316,0.8554216867469879,0,24,5,0,10,10,37,464905.56,315501.18999999994,149404.37000000002,0.0031602450000036697

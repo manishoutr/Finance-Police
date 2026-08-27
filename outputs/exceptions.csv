@@ -1,0 +1,67 @@
+exception_id,invoice_id,payment_id,exception_type,invoice_amount,payment_amount,amount_difference,confidence_score,severity,reason,recommended_action
+EXC-00001,INV-2024-00007,PMT-100007,DATE_MISMATCH,1193.49,1193.49,0.0,71.72,MEDIUM,Payment date is 53 days from the invoice due date.,CHECK BANK STATEMENT
+EXC-00002,INV-2024-00010,PMT-100010,DATE_MISMATCH,6739.1,6739.1,0.0,71.61,MEDIUM,Payment date is 50 days from the invoice due date.,CHECK BANK STATEMENT
+EXC-00003,INV-2024-00016,PMT-100016,PARTIAL_PAYMENT,1849.37,774.63,1074.74,68.1,HIGH,"Payment of ₹774.63 covers only part of the invoice of ₹1,849.37.",CONTACT CUSTOMER
+EXC-00004,INV-2024-00019,PMT-100020,MISSING_REFERENCE,622.79,622.79,0.0,87.29,LOW,"Payment amount and customer signals are strong, but the invoice reference is missing.",REVIEW PAYMENT
+EXC-00005,INV-2024-00020,PMT-100079,AMOUNT_MISMATCH,7615.6,8545.38,-929.78,59.98,MEDIUM,Payment is ₹929.78 higher than invoice amount.,REVIEW PAYMENT
+EXC-00006,INV-2024-00026,PMT-100026,DATE_MISMATCH,9207.01,9207.01,0.0,71.9,MEDIUM,Payment date is 74 days from the invoice due date.,CHECK BANK STATEMENT
+EXC-00007,INV-2024-00030,PMT-100030,DATE_MISMATCH,2556.17,2556.17,0.0,71.84,MEDIUM,Payment date is 51 days from the invoice due date.,CHECK BANK STATEMENT
+EXC-00008,INV-2024-00032,PMT-100055,AMOUNT_MISMATCH,1512.83,1540.71,-27.88,66.43,MEDIUM,Payment is ₹27.88 higher than invoice amount.,REVIEW PAYMENT
+EXC-00009,INV-2024-00034,PMT-100045,AMOUNT_MISMATCH,7118.37,8882.97,-1764.6,61.4,HIGH,"Payment is ₹1,764.60 higher than invoice amount.",REVIEW PAYMENT
+EXC-00010,INV-2024-00035,PMT-100105,AMOUNT_MISMATCH,5570.48,5938.82,-368.34,62.3,MEDIUM,Payment is ₹368.34 higher than invoice amount.,REVIEW PAYMENT
+EXC-00011,INV-2024-00037,PMT-100038,PARTIAL_PAYMENT,8095.19,3707.33,4387.86,66.82,HIGH,"Payment of ₹3,707.33 covers only part of the invoice of ₹8,095.19.",CONTACT CUSTOMER
+EXC-00012,INV-2024-00041,PMT-100043,PARTIAL_PAYMENT,4011.68,1448.94,2562.74,63.11,HIGH,"Payment of ₹1,448.94 covers only part of the invoice of ₹4,011.68.",CONTACT CUSTOMER
+EXC-00013,INV-2024-00042,PMT-100045,MISSING_REFERENCE,8882.97,8882.97,0.0,88.62,LOW,"Payment amount and customer signals are strong, but the invoice reference is missing.",REVIEW PAYMENT
+EXC-00014,INV-2024-00048,PMT-100042,AMOUNT_MISMATCH,1301.71,1326.25,-24.54,75.77,MEDIUM,Payment is ₹24.54 higher than invoice amount.,REVIEW PAYMENT
+EXC-00015,INV-2024-00057,PMT-100065,DATE_MISMATCH,4826.12,4826.12,0.0,71.5,MEDIUM,Payment date is 52 days from the invoice due date.,CHECK BANK STATEMENT
+EXC-00016,INV-2024-00059,PMT-100053,AMOUNT_MISMATCH,466.62,487.2,-20.58,82.5,MEDIUM,Payment is ₹20.58 higher than invoice amount.,REVIEW PAYMENT
+EXC-00017,INV-2024-00066,PMT-100078,PARTIAL_PAYMENT,1254.36,503.24,751.12,68.27,HIGH,"Payment of ₹503.24 covers only part of the invoice of ₹1,254.36.",CONTACT CUSTOMER
+EXC-00018,INV-2024-00067,PMT-100079,DATE_MISMATCH,8545.38,8545.38,0.0,71.82,MEDIUM,Payment date is 41 days from the invoice due date.,CHECK BANK STATEMENT
+EXC-00019,INV-2024-00071,PMT-100083,MISSING_REFERENCE,8798.47,8798.47,0.0,89.76,LOW,"Payment amount and customer signals are strong, but the invoice reference is missing.",REVIEW PAYMENT
+EXC-00020,INV-2024-00072,PMT-100084,MISSING_REFERENCE,9275.15,9275.15,0.0,87.48,LOW,"Payment amount and customer signals are strong, but the invoice reference is missing.",REVIEW PAYMENT
+EXC-00021,INV-2024-00074,PMT-100106,AMOUNT_MISMATCH,7010.53,6851.68,158.85,51.89,MEDIUM,Payment is ₹158.85 lower than invoice amount.,REVIEW PAYMENT
+EXC-00022,INV-2024-00075,PMT-100086,DATE_MISMATCH,7631.12,7631.12,0.0,71.22,MEDIUM,Payment date is 39 days from the invoice due date.,CHECK BANK STATEMENT
+EXC-00023,INV-2024-00076,PMT-100088,PARTIAL_PAYMENT,2571.31,1133.95,1437.36,62.31,HIGH,"Payment of ₹1,133.95 covers only part of the invoice of ₹2,571.31.",CONTACT CUSTOMER
+EXC-00024,INV-2024-00079,PMT-100091,DATE_MISMATCH,3354.27,3354.27,0.0,71.21,MEDIUM,Payment date is 62 days from the invoice due date.,CHECK BANK STATEMENT
+EXC-00025,INV-2024-00087,PMT-100106,AMOUNT_MISMATCH,6934.75,6851.68,83.07,66.76,MEDIUM,Payment is ₹83.07 lower than invoice amount.,REVIEW PAYMENT
+EXC-00026,INV-2024-00088,PMT-100101,DATE_MISMATCH,5778.67,5778.67,0.0,71.63,MEDIUM,Payment date is 46 days from the invoice due date.,CHECK BANK STATEMENT
+EXC-00027,INV-2024-00089,PMT-100038,AMOUNT_MISMATCH,3690.1,3707.33,-17.23,77.96,MEDIUM,Payment is ₹17.23 higher than invoice amount.,REVIEW PAYMENT
+EXC-00028,INV-2024-00095,PMT-100107,DATE_MISMATCH,6352.14,6352.14,0.0,71.67,MEDIUM,Payment date is 61 days from the invoice due date.,CHECK BANK STATEMENT
+EXC-00029,INV-2024-00096,PMT-100108,PARTIAL_PAYMENT,6638.62,2264.23,4374.39,61.86,HIGH,"Payment of ₹2,264.23 covers only part of the invoice of ₹6,638.62.",CONTACT CUSTOMER
+EXC-00030,,PMT-100016,DUPLICATE_PAYMENT,,774.63,,0.0,HIGH,Payment appears to have been associated with more than one invoice or duplicated in the transaction feed.,VERIFY DUPLICATE
+EXC-00031,,PMT-100017,UNMATCHED_TRANSACTION,,698.19,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00032,,PMT-100032,UNMATCHED_TRANSACTION,,511.56,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00033,,PMT-100033,UNMATCHED_TRANSACTION,,612.95,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00034,,PMT-100035,DUPLICATE_PAYMENT,,587.51,,0.0,HIGH,Payment appears to have been associated with more than one invoice or duplicated in the transaction feed.,VERIFY DUPLICATE
+EXC-00035,,PMT-100037,UNMATCHED_TRANSACTION,,2803.16,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00036,,PMT-100043,DUPLICATE_PAYMENT,,1448.94,,0.0,HIGH,Payment appears to have been associated with more than one invoice or duplicated in the transaction feed.,VERIFY DUPLICATE
+EXC-00037,,PMT-100044,DUPLICATE_PAYMENT,,8882.97,,0.0,HIGH,Payment appears to have been associated with more than one invoice or duplicated in the transaction feed.,VERIFY DUPLICATE
+EXC-00038,,PMT-100049,DUPLICATE_PAYMENT,,138.03,,0.0,HIGH,Payment appears to have been associated with more than one invoice or duplicated in the transaction feed.,VERIFY DUPLICATE
+EXC-00039,,PMT-100052,UNMATCHED_TRANSACTION,,557.79,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00040,,PMT-100056,UNMATCHED_TRANSACTION,,1540.71,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00041,,PMT-100059,UNMATCHED_TRANSACTION,,6361.31,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00042,,PMT-100062,DUPLICATE_PAYMENT,,2549.2,,0.0,HIGH,Payment appears to have been associated with more than one invoice or duplicated in the transaction feed.,VERIFY DUPLICATE
+EXC-00043,,PMT-100067,UNMATCHED_TRANSACTION,,200.73,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00044,,PMT-100068,UNMATCHED_TRANSACTION,,164.36,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00045,,PMT-100071,DUPLICATE_PAYMENT,,7054.63,,0.0,HIGH,Payment appears to have been associated with more than one invoice or duplicated in the transaction feed.,VERIFY DUPLICATE
+EXC-00046,,PMT-100074,UNMATCHED_TRANSACTION,,5205.83,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00047,,PMT-100077,UNMATCHED_TRANSACTION,,385.19,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00048,,PMT-100078,DUPLICATE_PAYMENT,,503.24,,0.0,HIGH,Payment appears to have been associated with more than one invoice or duplicated in the transaction feed.,VERIFY DUPLICATE
+EXC-00049,,PMT-100087,UNMATCHED_TRANSACTION,,763.97,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00050,,PMT-100088,DUPLICATE_PAYMENT,,1133.95,,0.0,HIGH,Payment appears to have been associated with more than one invoice or duplicated in the transaction feed.,VERIFY DUPLICATE
+EXC-00051,,PMT-100099,UNMATCHED_TRANSACTION,,2803.37,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00052,,PMT-100100,UNMATCHED_TRANSACTION,,2449.96,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00053,,PMT-100108,DUPLICATE_PAYMENT,,2264.23,,0.0,HIGH,Payment appears to have been associated with more than one invoice or duplicated in the transaction feed.,VERIFY DUPLICATE
+EXC-00054,,PMT-100109,UNMATCHED_TRANSACTION,,2789.13,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00055,,PMT-100111,UNMATCHED_TRANSACTION,,6450.65,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00056,,PMT-100114,UNMATCHED_TRANSACTION,,3887.41,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00057,,PMT-100115,UNMATCHED_TRANSACTION,,1713.51,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00058,,PMT-100116,UNMATCHED_TRANSACTION,,1420.21,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00059,,PMT-100117,UNMATCHED_TRANSACTION,,1240.36,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00060,,PMT-100118,UNMATCHED_TRANSACTION,,2890.71,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00061,,PMT-100119,UNMATCHED_TRANSACTION,,2976.67,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00062,,PMT-100120,UNMATCHED_TRANSACTION,,881.21,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00063,,PMT-100121,UNMATCHED_TRANSACTION,,2903.85,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00064,,PMT-100122,UNMATCHED_TRANSACTION,,1146.33,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00065,,PMT-100123,UNMATCHED_TRANSACTION,,792.59,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT
+EXC-00066,,PMT-100124,UNMATCHED_TRANSACTION,,734.18,,0.0,MEDIUM,Payment transaction has no sufficiently strong invoice relationship.,CHECK BANK STATEMENT

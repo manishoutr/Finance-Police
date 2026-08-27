@@ -1,0 +1,111 @@
+invoice_id,payment_ids,match_type,invoice_amount,total_paid,notes
+INV-2024-00000,PMT-100000,exact_match,859.43,859.43,"Name, amount, and date all align closely."
+INV-2024-00001,PMT-100001,exact_match,9291.95,9291.95,"Name, amount, and date all align closely."
+INV-2024-00002,PMT-100002,exact_match,1263.3,1263.3,"Name, amount, and date all align closely."
+INV-2024-00003,PMT-100003,fuzzy_name,2554.79,2554.79,Payer name 'BRENDA SNYDER PHD' is a variant of 'Brenda Snyder PhD'.
+INV-2024-00004,PMT-100004,exact_match,9163.23,9163.23,"Name, amount, and date all align closely."
+INV-2024-00005,PMT-100005,exact_match,6787.37,6787.37,"Name, amount, and date all align closely."
+INV-2024-00006,PMT-100006,fuzzy_name,4190.05,4190.05,"Payer name 'Rios, Emily' is a variant of 'Emily Rios'."
+INV-2024-00007,PMT-100007,date_mismatch,1193.49,1193.49,Payment arrived 53 days after the due date.
+INV-2024-00008,PMT-100008,exact_match,3244.91,3244.91,"Name, amount, and date all align closely."
+INV-2024-00009,PMT-100009,exact_match,5610.76,5610.76,"Name, amount, and date all align closely."
+INV-2024-00010,PMT-100010,date_mismatch,6739.1,6739.1,Payment arrived 50 days after the due date.
+INV-2024-00011,PMT-100011,exact_match,686.93,686.93,"Name, amount, and date all align closely."
+INV-2024-00012,PMT-100012,exact_match,719.6,719.6,"Name, amount, and date all align closely."
+INV-2024-00013,PMT-100013,exact_match,6371.84,6371.84,"Name, amount, and date all align closely."
+INV-2024-00014,PMT-100014,exact_match,6885.68,6885.68,"Name, amount, and date all align closely."
+INV-2024-00015,PMT-100015,exact_match,2346.32,2346.32,"Name, amount, and date all align closely."
+INV-2024-00016,PMT-100016;PMT-100017,partial_payment,1849.37,1472.82,Two installments received; balance remains outstanding.
+INV-2024-00017,PMT-100018,exact_match,3398.11,3398.11,"Name, amount, and date all align closely."
+INV-2024-00018,PMT-100019,exact_match,8213.26,8213.26,"Name, amount, and date all align closely."
+INV-2024-00019,PMT-100020,fuzzy_name,622.79,622.79,Payer name 'Johnson S.' is a variant of 'Johnson and Sons'.
+INV-2024-00020,,missing_payment,7615.6,0.0,No payment received for this invoice.
+INV-2024-00021,PMT-100021,fuzzy_name,1860.53,1860.53,Payer name 'Donald  Booth' is a variant of 'Donald Booth'.
+INV-2024-00022,PMT-100022,exact_match,1374.72,1374.72,"Name, amount, and date all align closely."
+INV-2024-00023,PMT-100023,exact_match,4421.84,4421.84,"Name, amount, and date all align closely."
+INV-2024-00024,PMT-100024,fuzzy_name,7685.81,7685.81,Payer name 'Lance  Hoffman' is a variant of 'Lance Hoffman'.
+INV-2024-00025,PMT-100025,fuzzy_name,528.06,528.06,Payer name 'leah smith' is a variant of 'Leah Smith'.
+INV-2024-00026,PMT-100026,date_mismatch,9207.01,9207.01,Payment arrived 74 days after the due date.
+INV-2024-00027,PMT-100027,exact_match,1621.64,1621.64,"Name, amount, and date all align closely."
+INV-2024-00028,PMT-100028,exact_match,2069.91,2069.91,"Name, amount, and date all align closely."
+INV-2024-00029,PMT-100029,fuzzy_name,1605.82,1605.82,Payer name 'Emily  Rios' is a variant of 'Emily Rios'.
+INV-2024-00030,PMT-100030,date_mismatch,2556.17,2556.17,Payment arrived 51 days after the due date.
+INV-2024-00031,PMT-100031,fuzzy_name,2745.61,2745.61,Payer name 'Melissa Marquez & Co.' is a variant of 'Melissa Marquez'.
+INV-2024-00032,PMT-100032;PMT-100033,partial_payment,1512.83,1124.51,Two installments received; balance remains outstanding.
+INV-2024-00033,PMT-100034,exact_match,9204.3,9204.3,"Name, amount, and date all align closely."
+INV-2024-00034,,missing_payment,7118.37,0.0,No payment received for this invoice.
+INV-2024-00035,,missing_payment,5570.48,0.0,No payment received for this invoice.
+INV-2024-00036,PMT-100035;PMT-100036,duplicate_payment,587.51,1175.02,Invoice paid in full twice; second payment is a duplicate/refund candidate.
+INV-2024-00037,PMT-100037;PMT-100038,partial_payment,8095.19,6510.49,Two installments received; balance remains outstanding.
+INV-2024-00038,PMT-100039,exact_match,6430.76,6430.76,"Name, amount, and date all align closely."
+INV-2024-00039,PMT-100040,exact_match,1182.93,1182.93,"Name, amount, and date all align closely."
+INV-2024-00040,PMT-100041,exact_match,5520.79,5520.79,"Name, amount, and date all align closely."
+INV-2024-00041,PMT-100042;PMT-100043,partial_payment,4011.68,2775.19,Two installments received; balance remains outstanding.
+INV-2024-00042,PMT-100044;PMT-100045,duplicate_payment,8882.97,17765.94,Invoice paid in full twice; second payment is a duplicate/refund candidate.
+INV-2024-00043,PMT-100046,exact_match,2305.58,2305.58,"Name, amount, and date all align closely."
+INV-2024-00044,PMT-100047,exact_match,6397.47,6397.47,"Name, amount, and date all align closely."
+INV-2024-00045,PMT-100048,exact_match,3037.87,3037.87,"Name, amount, and date all align closely."
+INV-2024-00046,PMT-100049;PMT-100050,duplicate_payment,138.03,276.06,Invoice paid in full twice; second payment is a duplicate/refund candidate.
+INV-2024-00047,PMT-100051,exact_match,742.31,742.31,"Name, amount, and date all align closely."
+INV-2024-00048,PMT-100052;PMT-100053,partial_payment,1301.71,1044.99,Two installments received; balance remains outstanding.
+INV-2024-00049,PMT-100054,exact_match,8359.1,8359.1,"Name, amount, and date all align closely."
+INV-2024-00050,PMT-100055;PMT-100056,duplicate_payment,1540.71,3081.42,Invoice paid in full twice; second payment is a duplicate/refund candidate.
+INV-2024-00051,PMT-100057,exact_match,5830.35,5830.35,"Name, amount, and date all align closely."
+INV-2024-00052,PMT-100058;PMT-100059,duplicate_payment,6361.31,12722.62,Invoice paid in full twice; second payment is a duplicate/refund candidate.
+INV-2024-00053,PMT-100060,exact_match,8855.09,8855.09,"Name, amount, and date all align closely."
+INV-2024-00054,PMT-100061;PMT-100062,duplicate_payment,2549.2,5098.4,Invoice paid in full twice; second payment is a duplicate/refund candidate.
+INV-2024-00055,PMT-100063,fuzzy_name,2623.69,2623.69,Payer name 'Donald  Booth' is a variant of 'Donald Booth'.
+INV-2024-00056,PMT-100064,exact_match,6831.44,6831.44,"Name, amount, and date all align closely."
+INV-2024-00057,PMT-100065,date_mismatch,4826.12,4826.12,Payment arrived 52 days after the due date.
+INV-2024-00058,PMT-100066,exact_match,922.22,922.22,"Name, amount, and date all align closely."
+INV-2024-00059,PMT-100067;PMT-100068,partial_payment,466.62,365.09,Two installments received; balance remains outstanding.
+INV-2024-00060,PMT-100069,exact_match,6070.72,6070.72,"Name, amount, and date all align closely."
+INV-2024-00061,PMT-100070;PMT-100071,duplicate_payment,7054.63,14109.26,Invoice paid in full twice; second payment is a duplicate/refund candidate.
+INV-2024-00062,PMT-100072,exact_match,5350.57,5350.57,"Name, amount, and date all align closely."
+INV-2024-00063,PMT-100073,exact_match,8980.73,8980.73,"Name, amount, and date all align closely."
+INV-2024-00064,PMT-100074;PMT-100075,duplicate_payment,5205.83,10411.66,Invoice paid in full twice; second payment is a duplicate/refund candidate.
+INV-2024-00065,PMT-100076,fuzzy_name,5554.72,5554.72,Payer name 'Austin  Smith' is a variant of 'Austin Smith'.
+INV-2024-00066,PMT-100077;PMT-100078,partial_payment,1254.36,888.43,Two installments received; balance remains outstanding.
+INV-2024-00067,PMT-100079,date_mismatch,8545.38,8545.38,Payment arrived 41 days after the due date.
+INV-2024-00068,PMT-100080,exact_match,8544.84,8544.84,"Name, amount, and date all align closely."
+INV-2024-00069,PMT-100081,exact_match,6352.52,6352.52,"Name, amount, and date all align closely."
+INV-2024-00070,PMT-100082,exact_match,9252.76,9252.76,"Name, amount, and date all align closely."
+INV-2024-00071,PMT-100083,fuzzy_name,8798.47,8798.47,Payer name 'Anedrson Group' is a variant of 'Anderson Group'.
+INV-2024-00072,PMT-100084,fuzzy_name,9275.15,9275.15,Payer name 'B. Hall' is a variant of 'Bobby Hall'.
+INV-2024-00073,PMT-100085,fuzzy_name,8379.38,8379.38,Payer name 'carney-santos' is a variant of 'Carney-Santos'.
+INV-2024-00074,,missing_payment,7010.53,0.0,No payment received for this invoice.
+INV-2024-00075,PMT-100086,date_mismatch,7631.12,7631.12,Payment arrived 39 days after the due date.
+INV-2024-00076,PMT-100087;PMT-100088,partial_payment,2571.31,1897.92,Two installments received; balance remains outstanding.
+INV-2024-00077,PMT-100089,exact_match,3665.02,3665.02,"Name, amount, and date all align closely."
+INV-2024-00078,PMT-100090,exact_match,2152.0,2152.0,"Name, amount, and date all align closely."
+INV-2024-00079,PMT-100091,date_mismatch,3354.27,3354.27,Payment arrived 62 days after the due date.
+INV-2024-00080,PMT-100092,fuzzy_name,2156.63,2156.63,Payer name 'Lam-Hayes & Co.' is a variant of 'Lam-Hayes'.
+INV-2024-00081,PMT-100093,exact_match,3815.5,3815.5,"Name, amount, and date all align closely."
+INV-2024-00082,PMT-100094,exact_match,9187.1,9187.1,"Name, amount, and date all align closely."
+INV-2024-00083,PMT-100095,exact_match,6112.0,6112.0,"Name, amount, and date all align closely."
+INV-2024-00084,PMT-100096,exact_match,8925.79,8925.79,"Name, amount, and date all align closely."
+INV-2024-00085,PMT-100097,exact_match,1737.47,1737.47,"Name, amount, and date all align closely."
+INV-2024-00086,PMT-100098,exact_match,1074.4,1074.4,"Name, amount, and date all align closely."
+INV-2024-00087,PMT-100099;PMT-100100,partial_payment,6934.75,5253.33,Two installments received; balance remains outstanding.
+INV-2024-00088,PMT-100101,date_mismatch,5778.67,5778.67,Payment arrived 46 days after the due date.
+INV-2024-00089,,missing_payment,3690.1,0.0,No payment received for this invoice.
+INV-2024-00090,PMT-100102,exact_match,2457.13,2457.13,"Name, amount, and date all align closely."
+INV-2024-00091,PMT-100103,exact_match,65.98,65.98,"Name, amount, and date all align closely."
+INV-2024-00092,PMT-100104,fuzzy_name,3491.89,3491.89,Payer name 'Carney-Santos & Co.' is a variant of 'Carney-Santos'.
+INV-2024-00093,PMT-100105,exact_match,5938.82,5938.82,"Name, amount, and date all align closely."
+INV-2024-00094,PMT-100106,exact_match,6851.68,6851.68,"Name, amount, and date all align closely."
+INV-2024-00095,PMT-100107,date_mismatch,6352.14,6352.14,Payment arrived 61 days after the due date.
+INV-2024-00096,PMT-100108;PMT-100109,partial_payment,6638.62,5053.36,Two installments received; balance remains outstanding.
+INV-2024-00097,PMT-100110,exact_match,1862.89,1862.89,"Name, amount, and date all align closely."
+INV-2024-00098,PMT-100111;PMT-100112,duplicate_payment,6450.65,12901.3,Invoice paid in full twice; second payment is a duplicate/refund candidate.
+INV-2024-00099,PMT-100113;PMT-100114,duplicate_payment,3887.41,7774.82,Invoice paid in full twice; second payment is a duplicate/refund candidate.
+,PMT-100115,unmatched_payment,,1713.51,"Payment has no corresponding invoice (overpayment, stray transfer, or invoice missing from the system)."
+,PMT-100116,unmatched_payment,,1420.21,"Payment has no corresponding invoice (overpayment, stray transfer, or invoice missing from the system)."
+,PMT-100117,unmatched_payment,,1240.36,"Payment has no corresponding invoice (overpayment, stray transfer, or invoice missing from the system)."
+,PMT-100118,unmatched_payment,,2890.71,"Payment has no corresponding invoice (overpayment, stray transfer, or invoice missing from the system)."
+,PMT-100119,unmatched_payment,,2976.67,"Payment has no corresponding invoice (overpayment, stray transfer, or invoice missing from the system)."
+,PMT-100120,unmatched_payment,,881.21,"Payment has no corresponding invoice (overpayment, stray transfer, or invoice missing from the system)."
+,PMT-100121,unmatched_payment,,2903.85,"Payment has no corresponding invoice (overpayment, stray transfer, or invoice missing from the system)."
+,PMT-100122,unmatched_payment,,1146.33,"Payment has no corresponding invoice (overpayment, stray transfer, or invoice missing from the system)."
+,PMT-100123,unmatched_payment,,792.59,"Payment has no corresponding invoice (overpayment, stray transfer, or invoice missing from the system)."
+,PMT-100124,unmatched_payment,,734.18,"Payment has no corresponding invoice (overpayment, stray transfer, or invoice missing from the system)."

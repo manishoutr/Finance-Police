@@ -1,0 +1,22 @@
+{
+  "records_processed": 100,
+  "automatic_matches": 71,
+  "review_records": 17,
+  "unmatched_records": 12,
+  "automatic_match_rate": 0.71,
+  "true_positives": 71,
+  "precision": 1.0,
+  "recall": 0.7473684210526316,
+  "f1_score": 0.8554216867469879,
+  "false_positives": 0,
+  "false_negatives": 24,
+  "correctly_identified_unmatched": 5,
+  "incorrect_automatic_matches": 0,
+  "correctly_identified_unmatched_payments": 10,
+  "expected_unmatched_payments": 10,
+  "predicted_unmatched_payments": 37,
+  "total_invoice_value": 464905.56,
+  "total_value_reconciled": 315501.18999999994,
+  "total_value_exceptions": 149404.37000000002,
+  "processing_time_seconds": 0.0031602450000036697
+}

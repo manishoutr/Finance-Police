@@ -1,0 +1,42 @@
+question,expected_data_source,actual_result,passed_or_failed,notes
+What is our current reconciliation status?,evaluation_results.json / get_reconciliation_summary,"### Reconciliation status
+- Records processed: **100**
+- Automatically matched: **71**
+- Review: **17**
+- Unmatched: **12**
+- Match rate: **71.0%**
+- Precision: **100.0%**
+- Recall: **74.7%**
+- F1: **85.5%**
+- Total exception value: **₹149,404.37**",PASSED,Compared counts and match rate against stored evaluation output.
+What is our match rate?,evaluation_results.json / get_reconciliation_summary,"### Reconciliation status
+- Records processed: **100**
+- Automatically matched: **71**
+- Review: **17**
+- Unmatched: **12**
+- Match rate: **71.0%**
+- Precision: **100.0%**
+- Recall: **74.7%**
+- F1: **85.5%**
+- Total exception value: **₹149,404.37**",PASSED,Compared match rate against stored evaluation output.
+How many invoices are unresolved?,evaluation_results.json / get_reconciliation_summary,"I'm running in **DEMO_MODE**, so no paid API call is being made. I can answer common questions using the same read-only finance tools. Try asking about reconciliation status, unresolved invoices, an invoice/payment ID, largest exceptions, exception summary, or cash position.",FAILED,Derived REVIEW + UNMATCHED from stored evaluation output.
+How much money is currently in exceptions?,evaluation_results.json / get_reconciliation_summary,"The stored reconciliation data shows **₹149,404.37** in exception value. This is sourced from the existing evaluation output.",PASSED,Compared exception value against stored evaluation output.
+Show me the five largest exceptions.,exceptions.csv / get_top_exceptions,"### Five largest exceptions
+1. **EXC-00020** | MISSING_REFERENCE | Invoice **INV-2024-00072** | Exposure **₹9,275.15** | Severity **LOW**
+2. **EXC-00006** | DATE_MISMATCH | Invoice **INV-2024-00026** | Exposure **₹9,207.01** | Severity **MEDIUM**
+3. **EXC-00013** | MISSING_REFERENCE | Invoice **INV-2024-00042** | Exposure **₹8,882.97** | Severity **LOW**
+4. **EXC-00019** | MISSING_REFERENCE | Invoice **INV-2024-00071** | Exposure **₹8,798.47** | Severity **LOW**
+5. **EXC-00018** | DATE_MISMATCH | Invoice **INV-2024-00067** | Exposure **₹8,545.38** | Severity **MEDIUM**",PASSED,Checked that returned invoice IDs are actual top-exception records.
+Why was invoice INV001 not reconciled?,invoices.csv + reconciliation_results.csv / get_invoice_details,"I'm running in **DEMO_MODE**, so no paid API call is being made. I can answer common questions using the same read-only finance tools. Try asking about reconciliation status, unresolved invoices, an invoice/payment ID, largest exceptions, exception summary, or cash position.",FAILED,Verified existence check against invoices.csv.
+"Find payments with discrepancies above ₹1,000.",exceptions.csv / get_exceptions,"No transactions matching **payments with discrepancies above ₹1,000.** were found.",FAILED,Verified IDs against exceptions.csv.
+What are the most common exception types?,exceptions.csv / get_exception_summary,No exception summary is available.,FAILED,Verified every reported type against exception summary.
+What is our current cash position?,raw financial data + reconciliation + audit / get_cash_position,"### Synthetic cash position
+- **CONFIRMED** incoming payments: **USD 315,501.19** (71 payments)
+- **PENDING** review payments: **USD 89,283.63** (17 payments)
+- **UNRESOLVED** unmatched incoming payments: **USD 80,223.22** (37 payments)
+- **CONFIRMED** receivables: **USD 315,501.19**
+- **UNRESOLVED** receivables: **USD 149,404.37**
+- **EXPECTED** incoming cash: **USD 464,905.56**
+
+This is calculated from the synthetic dataset only. It is not a bank balance or production cash forecast.",PASSED,Compared cash values against get_cash_position().
+Tell me about invoice INV999999.,invoices.csv / get_invoice_details,"I'm running in **DEMO_MODE**, so no paid API call is being made. I can answer common questions using the same read-only finance tools. Try asking about reconciliation status, unresolved invoices, an invoice/payment ID, largest exceptions, exception summary, or cash position.",FAILED,Verified nonexistent invoice is explicitly reported unavailable.

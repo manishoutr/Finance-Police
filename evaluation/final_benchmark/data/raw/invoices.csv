@@ -1,0 +1,121 @@
+invoice_id,customer_name,invoice_date,due_date,amount,currency,description
+HINV-0001,Williams-Turner LLP,2026-02-18,2026-04-04,9629.84,USD,Invoice HINV-0001 for professional services
+HINV-0002,Brown Simmons and Norton Private Limited,2026-01-29,2026-02-13,3689.28,USD,Invoice HINV-0002 for professional services
+HINV-0003,Ramos PLC Inc,2026-05-26,2026-06-25,6268.79,USD,Invoice HINV-0003 for professional services
+HINV-0004,Adams Wagner and Hall Limited,2026-04-06,2026-04-21,6936.55,USD,Invoice HINV-0004 for professional services
+HINV-0005,Webster-Joseph Inc,2026-02-01,2026-02-16,10694.32,USD,Invoice HINV-0005 for professional services
+HINV-0006,Jacobs LLC Limited,2026-03-11,2026-03-26,2677.31,USD,Invoice HINV-0006 for professional services
+HINV-0007,Swanson Benson and Johnson LLP,2026-01-31,2026-02-15,3048.0,USD,Invoice HINV-0007 for professional services
+HINV-0008,Nichols Peters and Davis Inc,2026-03-02,2026-04-01,7053.57,USD,Invoice HINV-0008 for professional services
+HINV-0009,Horton and Sons LLP,2026-05-22,2026-06-21,8062.74,USD,Invoice HINV-0009 for professional services
+HINV-0010,Colon Sloan and Davila Limited,2026-03-25,2026-04-09,6063.0,USD,Invoice HINV-0010 for professional services
+HINV-0011,Gregory-Parker Inc,2026-04-25,2026-05-10,10341.58,USD,Invoice HINV-0011 for professional services
+HINV-0012,Walker Berry and Murray Inc,2026-03-23,2026-04-07,11949.1,USD,Invoice HINV-0012 for professional services
+HINV-0013,Campos Ltd Private Limited,2026-03-23,2026-05-07,7602.53,USD,Invoice HINV-0013 for professional services
+HINV-0014,Beck-Elliott Inc,2026-01-17,2026-02-01,2310.07,USD,Invoice HINV-0014 for professional services
+HINV-0015,Carson Inc LLP,2026-05-22,2026-07-06,1547.9,USD,Invoice HINV-0015 for professional services
+HINV-0016,Williams Group Inc,2026-05-20,2026-07-04,4677.24,USD,Invoice HINV-0016 for professional services
+HINV-0017,Lane and Sons Inc,2026-02-21,2026-04-07,9939.74,USD,Invoice HINV-0017 for professional services
+HINV-0018,Abbott Inc Limited,2026-02-02,2026-02-17,7899.53,USD,Invoice HINV-0018 for professional services
+HINV-0019,Carter Combs and Taylor Inc,2026-01-17,2026-02-16,7976.06,USD,Invoice HINV-0019 for professional services
+HINV-0020,Alvarado PLC Private Limited,2026-06-02,2026-06-17,11274.84,USD,Invoice HINV-0020 for professional services
+HINV-0021,Simmons Inc LLP,2026-04-05,2026-05-20,8924.76,USD,Invoice HINV-0021 for professional services
+HINV-0022,Taylor-Walker LLP,2026-02-26,2026-03-28,5970.32,USD,Invoice HINV-0022 for professional services
+HINV-0023,Romero Group Limited,2026-02-22,2026-03-24,8601.04,USD,Invoice HINV-0023 for professional services
+HINV-0024,Shannon-Martin Limited,2026-01-20,2026-02-19,5885.67,USD,Invoice HINV-0024 for professional services
+HINV-0025,Chavez-Thomas Inc,2026-01-14,2026-02-13,4520.32,USD,Invoice HINV-0025 for professional services
+HINV-0026,Fowler Henry and Weaver LLP,2026-05-08,2026-06-07,9053.07,USD,Invoice HINV-0026 for professional services
+HINV-0027,Paul-Mccarthy LLP,2026-03-10,2026-03-25,11361.45,USD,Invoice HINV-0027 for professional services
+HINV-0028,Moss Moreno and Davis Inc,2026-06-03,2026-07-03,10342.75,USD,Invoice HINV-0028 for professional services
+HINV-0029,Mclaughlin Silva and Munoz Limited,2026-01-07,2026-02-06,1855.24,USD,Invoice HINV-0029 for professional services
+HINV-0030,Floyd Bullock and Mclaughlin Limited,2026-01-13,2026-02-12,7002.34,USD,Invoice HINV-0030 for professional services
+HINV-0031,Mitchell Dean and West Inc,2026-03-26,2026-05-10,11941.01,USD,Invoice HINV-0031 for professional services
+HINV-0032,Cuevas-Wells Private Limited,2026-03-08,2026-04-22,8213.43,USD,Invoice HINV-0032 for professional services
+HINV-0033,Harris-Pham Inc,2026-05-26,2026-06-10,9511.89,USD,Invoice HINV-0033 for professional services
+HINV-0034,Mcfarland-Castro Inc,2026-03-06,2026-04-20,429.47,USD,Invoice HINV-0034 for professional services
+HINV-0035,Livingston Ltd Private Limited,2026-04-14,2026-05-14,11197.77,USD,Invoice HINV-0035 for professional services
+HINV-0036,Goodman PLC Limited,2026-03-27,2026-04-26,435.38,USD,Invoice HINV-0036 for professional services
+HINV-0037,Mccoy Ltd Private Limited,2026-03-27,2026-05-11,3302.15,USD,Invoice HINV-0037 for professional services
+HINV-0038,Campbell Wang and Nixon Limited,2026-01-23,2026-02-22,11395.27,USD,Invoice HINV-0038 for professional services
+HINV-0039,Crawford Parks and Camacho Limited,2026-05-30,2026-06-29,4653.31,USD,Invoice HINV-0039 for professional services
+HINV-0040,Robinson-Wilson Inc,2026-03-07,2026-03-22,11890.71,USD,Invoice HINV-0040 for professional services
+HINV-0041,Moore Smith and Huerta LLP,2026-03-31,2026-04-30,2578.36,USD,Invoice HINV-0041 for professional services
+HINV-0042,Lucero-Bauer Private Limited,2026-04-06,2026-05-06,5513.13,USD,Invoice HINV-0042 for professional services
+HINV-0043,Hoover Kelly and Frye Inc,2026-04-03,2026-04-18,8280.29,USD,Invoice HINV-0043 for professional services
+HINV-0044,White Riley and Taylor Limited,2026-01-21,2026-03-07,5445.61,USD,Invoice HINV-0044 for professional services
+HINV-0045,Riley-Williams Inc,2026-03-30,2026-05-14,6541.33,USD,Invoice HINV-0045 for professional services
+HINV-0046,Sullivan Ltd Inc,2026-03-08,2026-03-23,622.02,USD,Invoice HINV-0046 for professional services
+HINV-0047,Mathews and Sons Limited,2026-02-17,2026-04-03,10738.83,USD,Invoice HINV-0047 for professional services
+HINV-0048,Smith LLC Limited,2026-05-31,2026-06-15,11975.27,USD,Invoice HINV-0048 for professional services
+HINV-0049,Gonzalez Sandoval and Gonzales Limited,2026-01-14,2026-02-28,2836.67,USD,Invoice HINV-0049 for professional services
+HINV-0050,Meyers Edwards and Rodriguez Private Limited,2026-05-12,2026-05-27,3879.1,USD,Invoice HINV-0050 for professional services
+HINV-0051,King-Walker Limited,2026-05-08,2026-06-22,9335.08,USD,Invoice HINV-0051 for professional services
+HINV-0052,Hodge-Williams Private Limited,2026-04-08,2026-05-23,769.78,USD,Invoice HINV-0052 for professional services
+HINV-0053,Perez-Ellis Inc,2026-01-17,2026-02-16,669.9,USD,Invoice HINV-0053 for professional services
+HINV-0054,Oconnor Inc Limited,2026-02-20,2026-03-07,437.26,USD,Invoice HINV-0054 for professional services
+HINV-0055,Franklin PLC Private Limited,2026-05-13,2026-06-12,10408.02,USD,Invoice HINV-0055 for professional services
+HINV-0056,Roberts Ltd Private Limited,2026-01-05,2026-01-20,4083.47,USD,Invoice HINV-0056 for professional services
+HINV-0057,Jordan-Trevino LLP,2026-04-22,2026-05-22,4981.77,USD,Invoice HINV-0057 for professional services
+HINV-0058,Small-Brewer Inc,2026-03-14,2026-04-13,9534.28,USD,Invoice HINV-0058 for professional services
+HINV-0059,Murray Hall and Miles Private Limited,2026-02-26,2026-03-13,11732.26,USD,Invoice HINV-0059 for professional services
+HINV-0060,Kerr Group LLP,2026-04-05,2026-04-20,331.42,USD,Invoice HINV-0060 for professional services
+HINV-0061,Gray and Sons Inc,2026-01-25,2026-02-09,4119.37,USD,Invoice HINV-0061 for professional services
+HINV-0062,Durham Ltd Private Limited,2026-03-13,2026-04-27,5522.86,USD,Invoice HINV-0062 for professional services
+HINV-0063,Fletcher-Walker Inc,2026-02-02,2026-02-17,5354.91,USD,Invoice HINV-0063 for professional services
+HINV-0064,Madden and Sons Inc,2026-02-04,2026-03-21,8012.39,USD,Invoice HINV-0064 for professional services
+HINV-0065,Bailey and Sons Inc,2026-05-17,2026-06-16,7704.14,USD,Invoice HINV-0065 for professional services
+HINV-0066,Schroeder Fleming and Merritt Inc,2026-02-14,2026-03-01,2244.15,USD,Invoice HINV-0066 for professional services
+HINV-0067,Clarke Ltd Limited,2026-01-31,2026-02-15,3724.88,USD,Invoice HINV-0067 for professional services
+HINV-0068,Horn-Green Limited,2026-01-31,2026-03-17,8465.7,USD,Invoice HINV-0068 for professional services
+HINV-0069,White-Thompson Private Limited,2026-05-18,2026-06-02,6490.1,USD,Invoice HINV-0069 for professional services
+HINV-0070,Hartman-Aguilar Limited,2026-02-01,2026-03-18,7085.22,USD,Invoice HINV-0070 for professional services
+HINV-0071,Dominguez PLC Inc,2026-01-22,2026-03-08,7877.18,USD,Invoice HINV-0071 for professional services
+HINV-0072,Nelson-Wagner Private Limited,2026-02-05,2026-03-07,5366.12,USD,Invoice HINV-0072 for professional services
+HINV-0073,Villarreal LLC Inc,2026-05-15,2026-06-29,3414.33,USD,Invoice HINV-0073 for professional services
+HINV-0074,Donovan Group Inc,2026-02-13,2026-02-28,6823.24,USD,Invoice HINV-0074 for professional services
+HINV-0075,Figueroa Montgomery and Ford LLP,2026-04-02,2026-05-17,8892.25,USD,Invoice HINV-0075 for professional services
+HINV-0076,Mitchell and Sons Limited,2026-05-24,2026-06-23,406.99,USD,Invoice HINV-0076 for professional services
+HINV-0077,Roth Vega and Krueger LLP,2026-04-09,2026-05-09,5390.76,USD,Invoice HINV-0077 for professional services
+HINV-0078,Hunt-Schroeder Private Limited,2026-03-22,2026-05-06,7347.25,USD,Invoice HINV-0078 for professional services
+HINV-0079,Allen Ltd Limited,2026-01-11,2026-02-10,7159.97,USD,Invoice HINV-0079 for professional services
+HINV-0080,Rowe Carroll and Allen Limited,2026-01-07,2026-02-06,7778.69,USD,Invoice HINV-0080 for professional services
+HINV-0081,Williams-Turner LLP,2026-02-17,2026-04-03,2254.45,USD,Invoice HINV-0081 for professional services
+HINV-0082,Brown Simmons and Norton Private Limited,2026-03-06,2026-04-20,7404.3,USD,Invoice HINV-0082 for professional services
+HINV-0083,Ramos PLC Inc,2026-03-28,2026-05-12,4720.02,USD,Invoice HINV-0083 for professional services
+HINV-0084,Adams Wagner and Hall Limited,2026-03-13,2026-04-12,4728.47,USD,Invoice HINV-0084 for professional services
+HINV-0085,Webster-Joseph Inc,2026-01-08,2026-02-22,8442.27,USD,Invoice HINV-0085 for professional services
+HINV-0086,Jacobs LLC Limited,2026-01-22,2026-03-08,7660.92,USD,Invoice HINV-0086 for professional services
+HINV-0087,Swanson Benson and Johnson LLP,2026-03-13,2026-04-27,10952.17,USD,Invoice HINV-0087 for professional services
+HINV-0088,Nichols Peters and Davis Inc,2026-01-05,2026-02-19,6594.18,USD,Invoice HINV-0088 for professional services
+HINV-0089,Horton and Sons LLP,2026-03-18,2026-04-02,644.02,USD,Invoice HINV-0089 for professional services
+HINV-0090,Colon Sloan and Davila Limited,2026-04-26,2026-05-26,1261.22,USD,Invoice HINV-0090 for professional services
+HINV-0091,Gregory-Parker Inc,2026-06-01,2026-06-16,11693.97,USD,Invoice HINV-0091 for professional services
+HINV-0092,Walker Berry and Murray Inc,2026-02-25,2026-03-27,11914.0,USD,Invoice HINV-0092 for professional services
+HINV-0093,Campos Ltd Private Limited,2026-03-03,2026-03-18,11211.29,USD,Invoice HINV-0093 for professional services
+HINV-0094,Beck-Elliott Inc,2026-02-21,2026-04-07,1028.18,USD,Invoice HINV-0094 for professional services
+HINV-0095,Carson Inc LLP,2026-01-23,2026-03-09,11617.75,USD,Invoice HINV-0095 for professional services
+HINV-0096,Williams Group Inc,2026-04-08,2026-04-23,2020.9,USD,Invoice HINV-0096 for professional services
+HINV-0097,Lane and Sons Inc,2026-03-18,2026-04-02,4672.89,USD,Invoice HINV-0097 for professional services
+HINV-0098,Abbott Inc Limited,2026-01-15,2026-01-30,8423.78,USD,Invoice HINV-0098 for professional services
+HINV-0099,Carter Combs and Taylor Inc,2026-03-24,2026-04-08,11835.53,USD,Invoice HINV-0099 for professional services
+HINV-0100,Alvarado PLC Private Limited,2026-01-12,2026-01-27,9727.69,USD,Invoice HINV-0100 for professional services
+HINV-0101,Simmons Inc LLP,2026-04-30,2026-05-30,684.44,USD,Invoice HINV-0101 for professional services
+HINV-0102,Taylor-Walker LLP,2026-01-12,2026-01-27,8009.72,USD,Invoice HINV-0102 for professional services
+HINV-0103,Romero Group Limited,2026-03-16,2026-04-30,4498.11,USD,Invoice HINV-0103 for professional services
+HINV-0104,Shannon-Martin Limited,2026-04-07,2026-04-22,7574.32,USD,Invoice HINV-0104 for professional services
+HINV-0105,Chavez-Thomas Inc,2026-01-24,2026-03-10,11037.14,USD,Invoice HINV-0105 for professional services
+HINV-0106,Fowler Henry and Weaver LLP,2026-01-28,2026-03-14,8372.17,USD,Invoice HINV-0106 for professional services
+HINV-0107,Paul-Mccarthy LLP,2026-01-11,2026-02-25,6448.15,USD,Invoice HINV-0107 for professional services
+HINV-0108,Moss Moreno and Davis Inc,2026-01-12,2026-02-11,11188.53,USD,Invoice HINV-0108 for professional services
+HINV-0109,Mclaughlin Silva and Munoz Limited,2026-04-05,2026-04-20,8823.08,USD,Invoice HINV-0109 for professional services
+HINV-0110,Floyd Bullock and Mclaughlin Limited,2026-03-25,2026-04-09,10858.02,USD,Invoice HINV-0110 for professional services
+HINV-0111,Mitchell Dean and West Inc,2026-05-16,2026-05-31,8559.97,USD,Invoice HINV-0111 for professional services
+HINV-0112,Cuevas-Wells Private Limited,2026-01-09,2026-01-24,5215.1,USD,Invoice HINV-0112 for professional services
+HINV-0113,Harris-Pham Inc,2026-04-09,2026-04-24,4070.13,USD,Invoice HINV-0113 for professional services
+HINV-0114,Mcfarland-Castro Inc,2026-01-18,2026-02-17,7941.96,USD,Invoice HINV-0114 for professional services
+HINV-0115,Livingston Ltd Private Limited,2026-03-10,2026-04-09,5216.19,USD,Invoice HINV-0115 for professional services
+HINV-0116,Goodman PLC Limited,2026-04-14,2026-05-29,9759.78,USD,Invoice HINV-0116 for professional services
+HINV-0117,Mccoy Ltd Private Limited,2026-04-30,2026-05-30,1998.43,USD,Invoice HINV-0117 for professional services
+HINV-0118,Campbell Wang and Nixon Limited,2026-06-04,2026-07-04,4675.69,USD,Invoice HINV-0118 for professional services
+HINV-0119,Crawford Parks and Camacho Limited,2026-02-01,2026-02-16,5715.94,USD,Invoice HINV-0119 for professional services
+HINV-0120,Robinson-Wilson Inc,2026-03-26,2026-04-10,2309.43,USD,Invoice HINV-0120 for professional services
